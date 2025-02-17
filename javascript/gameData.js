@@ -9,6 +9,7 @@ const games = {
         likes: 0,
         dislikes: 0,
     },
+    // follow this format when adding games. Make sure you add the images + url OR game html file.
     smallCup: {
         title: "A Small World Cup",
         url: "game-template.html?id=smallCup",
@@ -721,7 +722,7 @@ const games = {
         title: "Eaglercraft 1.8.8",
         url: "game-template.html?id=eaglercraft1",
         image: "../images/proxyandgameimages/gameimages/eaglercraft1.png",
-        originalUrl: "../Games/html5-games/eaglercraft-1.8.8/EaglercraftX_1.8_u47_Offline_Signed.html",
+        originalUrl: "../Games/html5-games/eaglercraft-1.8.8/EaglercraftX_1.8_u49_Offline_Signed.html",
         description: "Eaglercraft is just older versions of minecraft.",
         ratings: [],
         likes: 0,
