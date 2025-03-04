@@ -30,6 +30,25 @@ const games = {
         likes: 0,
         dislikes: 0,
     },
+    runThreeWIthLevelEditor: {
+        title: "Run 3 (with level editor)",
+        url: "game-template.html?id=runThreeWIthLevelEditor",
+        originalUrl: "../Games/html5-games/run-3/index.html",
+        image: "../images/proxyandgameimages/gameimages/run3.jpeg",
+        description: "With level editor(click the I to unlock everything)",
+        controls: `
+        <h1>IMPORTANT!!</h1>
+        <p>To unlock the shop and stuff, click the I in the upper right corner. It will have a message saying thanks for looking at the credits, and give you some starting gems.</p>
+        <p>The level editor costs 500 gems in the shop.</p>
+        <p>To learn how save, watch this video: </p>
+        <iframe class='movie-frame' src="../images/proxyandgameimages/save-and-import-ruffle.webm" id="movieFrame" title="Movie Frame" allowfullscreen></iframe>
+
+        `,
+        type: "folder",
+        ratings: [],
+        likes: 0,
+        dislikes: 0,
+    },
     cookieClicker: {
         title: "Cookie Clicker (first method)",
         url: "game-template.html?id=cookieClicker",
@@ -181,7 +200,7 @@ const games = {
     incremancer: {
         title: "Incremancer",
         url: "game-template.html?id=incremancer",
-        originalUrl: "https://bcrhbrhcdb.github.io/incremancer/",
+        originalUrl: "https://nooby-games.github.io/incremancer/",
         image: "../images/proxyandgameimages/gameimages/incremancer.png",
         description: "A zombie themed idle game. One of my top five!",
         ratings: [],
@@ -487,6 +506,17 @@ const games = {
         likes: 0,
         dislikes: 0,
     },
+    picohot:{
+        title: "Picohot",
+        url: "game-template.html?id=picohot",
+        image: "../images/proxyandgameimages/gameimages/picohot.png",
+        originalUrl: "../Games/html5-games/picohot/index.html",
+        description: "Superhot knockoff maybe",
+        type: "folder",
+        ratings: [],
+        likes: 0,
+        dislikes: 0,
+    },
     paperIo:{
         title: "Paper.io",
         url: "game-template.html?id=paperIo",
@@ -722,7 +752,7 @@ const games = {
         title: "Eaglercraft 1.8.8",
         url: "game-template.html?id=eaglercraft1",
         image: "../images/proxyandgameimages/gameimages/eaglercraft1.png",
-        originalUrl: "../Games/html5-games/eaglercraft-1.8.8/EaglercraftX_1.8_u49_Offline_Signed.html",
+        originalUrl: "../Games/html5-games/eaglercraft-1.8.8/EaglercraftX_1.8_u50_Offline_Signed.html",
         description: "Eaglercraft is just older versions of minecraft.",
         ratings: [],
         likes: 0,
@@ -1005,7 +1035,7 @@ const games = {
     backrooms:{
         title: "Backrooms",
         url: "game-template.html?id=backrooms",
-        image: "../Games/html5-games/backrooms/backrooms.jpg",
+        image: "../Games/html5-games/backrooms/img/splash.jpg",
         originalUrl: "../Games/html5-games/backrooms/index.html",
         description: "can you get out",
         type: "folder",

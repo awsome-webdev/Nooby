@@ -3,22 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Apps</title>
+    <script src="../awsome-webdev/scripts/snowstorm.js"></script>
+    <script>
+      //Snow storm settings
+      snowStorm.snowColor = '#ffffff';  
+      snowStorm.flakesMaxActive = 5000;   
+      snowStorm.useTwinkleEffect = true; 
+      //snowStorm.flakeBottom = null;
+      snowStorm.snowStick = true;
+      snowStorm.vMaxX = 2;
+      snowStorm.vMaxY = 10;
+      </script>
     <link rel="stylesheet" href="../styles.css">
     <link rel="shortcut icon" href="../images/favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <div class='box'>
+        <h1 class='title'>Apps</h1>
+    </div>
     <div class="nav-container">
         <nav>
             <a href='../index.html'><button id="navBar">Home</button></a>
             <a href='games.html'><button id="navBar">Games</button></a>
             <a href='movies.html'><button id="navBar">Movies</button></a>
+            <a href='apps.html'><button id="navBar">Apps</button></a>
             <a href='proxies.html'><button id="navBar">Proxies</button></a>
             <a href='hacks.html'><button id="navBar">Hacks</button></a>
             <a href='credits.html'><button id="navBar">Credits</button></a>
             <a href='update-log.html'><button id="navBar">Updates</button></a>
-            <a href='privateBrowser.html'><button id="navBar">My Other Projects</button></a>
+            <a href='privateBrowser.html'><button id="navBar">Projects</button></a>
         </nav>
     </div>
+    <div class='box'>
+        <p>Just search up a app below! (Or just find it)</p> 
+        <input type="search" id="query" name="q" placeholder="Search for an app!" class="search">
+        <ul id="search-results"></ul>
+    </div>
+    <div id="app-container" class="items"></div>
+    <script src='../javascript/announcement.js'></script>
+    <script src="../javascript/404.js"></script>
+    <script src="../javascript/script.js"></script>
+    <script src="../javascript/appData.js"></script>
+    <script src="../javascript/appLoader.js"></script>
 </body>
 </html>
