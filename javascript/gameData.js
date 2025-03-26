@@ -393,6 +393,16 @@ const games = {
         likes: 0,
         dislikes: 0,
     },
+    preBronzeAge: {
+        title: "Pre-Civilization Bronze Age",
+        url: "game-template.html?id=preBronzeAge",
+        image: "../images/proxyandgameimages/gameimages/bronze.jpeg",
+        originalUrl: "../Games/html5-games/pre-bronze-age/index.html",
+        description:"Survival game I guess",
+        ratings: [],
+        likes: 0,
+        dislikes: 0,
+    },
     redBall3: {
         title: "Red Ball 3",
         url: "game-template.html?id=redBall3",
